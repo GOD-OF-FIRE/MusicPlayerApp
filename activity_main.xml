@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Music Player"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="23dp"
+        android:textColor="#11FF00"
+        android:textSize="60sp"
+       />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="237dp"
+        android:layout_height="235dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/symbol" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/play" />
+
+    <Button
+        android:id="@+id/btn_pause"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="-80dp"
+        android:background="@drawable/pause" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="270dp"
+
+        android:layout_marginTop="-80dp"
+        android:background="@drawable/stop" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Made By: Kushagra Gupta  SRMIST"
+        />
+
+</LinearLayout>
